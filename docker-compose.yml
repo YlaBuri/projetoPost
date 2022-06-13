@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  api:
+    build: ./desafioTecnico
+    container_name: desafio-api4
+    ports:
+      - 8080:8080
+  client:
+    build: ./desafio-tecnico-client
+    container_name: desafio-client2
+    ports:
+      - 3000:3000
+  
+    

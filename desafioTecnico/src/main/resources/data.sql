@@ -1,0 +1,2 @@
+INSERT INTO POST(texto, data_postagem, upvote) VALUES ('texto de teste', '2019-05-05 18:00:00', 0);
+INSERT INTO POST(texto, data_postagem, upvote) VALUES ('outro texto de teste', '2019-06-05 13:00:00', 0);

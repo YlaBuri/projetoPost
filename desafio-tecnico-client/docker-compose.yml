@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  client:
+    build: C:\Users\yla_m\git\desafio-tecnico-client\
+    container_name: desafio-client2
+    restart: always
+    ports:
+      - 3000:3000
+    
